@@ -126,3 +126,15 @@ Promote auto‑payment and bundled services to improve retention.
 ✅ Conclusion
 
 Logistic Regression provided a clean, interpretable baseline model that not only predicts churn but also explains why customers leave. This interpretability makes it ideal for consultancy and business storytelling, where actionable insights matter as much as predictive accuracy.
+
+📊 Model Comparison Note
+
+While Logistic Regression was chosen as the primary model for this project due to its interpretability and ability to connect coefficients directly to business drivers, it is important to acknowledge that more complex models such as Random Forest and XGBoost could be explored in a production setting.
+
+Logistic Regression provided a strong baseline and clear insights into churn drivers (e.g., contract type, monthly charges, tenure).
+
+Random Forest and XGBoost often deliver higher predictive performance by capturing non‑linear relationships and interactions between features.
+
+However, these models trade off interpretability for complexity, which can make it harder to directly communicate results to business stakeholders.
+
+For this project, Logistic Regression was sufficient to demonstrate both technical competence and business storytelling. In a real‑world deployment, I would compare performance across models and select the one that balances predictive accuracy with explainability, depending on business needs.
