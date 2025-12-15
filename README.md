@@ -105,6 +105,7 @@ ROC‑AUC demonstrated good discrimination between churn and non‑churn classes
 🔎 Insights from Coefficients
 
 Positive drivers of churn:
+
 Month‑to‑month contracts
 Higher monthly charges
 Lack of online security or tech support services
