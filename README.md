@@ -103,6 +103,8 @@ Achieved strong recall for churners, ensuring the model effectively identifies a
 ROC‑AUC demonstrated good discrimination between churn and non‑churn classes.
 
 🔎 Insights from Coefficients
+<img width="1397" height="672" alt="image" src="https://github.com/user-attachments/assets/e99de345-a17e-4ae2-9778-f21bfd6e7f15" />
+
 
 Positive drivers of churn:
 
