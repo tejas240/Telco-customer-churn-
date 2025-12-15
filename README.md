@@ -77,43 +77,51 @@ Based on the analysis of categorical and numerical parameters, several factors i
     Provide proactive support in the first 90 days.
 
 Conclusion
+
     By implementing these strategies, businesses can reduce churn significantly. The focus should be on incentivizing long-term contracts, offering personalized pricing, improving service quality, and enhancing customer engagement. These actions not only reduce churn but also strengthen customer loyalty and lifetime value.
 
 
 Churn Prediction using Logistic Regression Model:
 
 Data Preparation
+
 Cleaned the dataset by converting TotalCharges to numeric and imputing missing values (median for numeric, mode for categorical).
 Removed problematic features like tenure_bin that introduced NaNs or categorical strings.
 Applied one‑hot encoding to categorical variables and standardized numeric features for model stability.
 Ensured train/test sets were aligned and free of missing values before modeling.
 
 ⚙️ Model Choice
+
 Selected Logistic Regression as the baseline model.
 Used class_weight='balanced' to address class imbalance between churners and non‑churners.
 Logistic Regression was chosen for its interpretability and ability to connect coefficients directly to business drivers.
 
 📈 Evaluation
+
 Evaluated using Recall, F1‑Score, and ROC‑AUC, since accuracy alone is misleading in imbalanced datasets.
 Achieved strong recall for churners, ensuring the model effectively identifies at‑risk customers.
 ROC‑AUC demonstrated good discrimination between churn and non‑churn classes.
 
 🔎 Insights from Coefficients
+
 Positive drivers of churn:
 Month‑to‑month contracts
 Higher monthly charges
 Lack of online security or tech support services
 
 Negative drivers (reduce churn):
+
 Longer tenure
 Automatic payment methods
 Bundled services
 
 🎯 Business Impact
+
 The model highlights actionable strategies:
 Incentivize long‑term contracts to reduce churn.
 Offer discounts or loyalty rewards to high‑charge customers.
 Promote auto‑payment and bundled services to improve retention.
 
 ✅ Conclusion
+
 Logistic Regression provided a clean, interpretable baseline model that not only predicts churn but also explains why customers leave. This interpretability makes it ideal for consultancy and business storytelling, where actionable insights matter as much as predictive accuracy.
